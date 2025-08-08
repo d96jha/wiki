@@ -115,9 +115,3 @@ journalctl -u nginx
 | Log viewer      | `journalctl`                          |
 
 ---
-
-Let me know if you'd like:
-
-* A visual diagram of how systemd boots the system
-* A guide to writing custom `.service` or `.timer` units
-* A comparison to other init systems like `runit`, `OpenRC`, or `s6`

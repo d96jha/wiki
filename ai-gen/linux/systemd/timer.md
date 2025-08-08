@@ -144,5 +144,3 @@ sudo loginctl enable-linger $USER
 | `.timer`   | Defines **when** to run it |
 
 ---
-
-Would you like this in Markdown format too?
