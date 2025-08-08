@@ -172,6 +172,28 @@ readelf -d yourfile
 
 ---
 
-## 📚 Want Markdown?
+> **My note**:
+>
+> The elf container format is fairly simple: this is just a high level
+> overview:
+> * a better description can of course be found in
+    [wikipedia](https://en.wikipedia.org/wiki/Executable_and_Linkable_Format)
+> * see also the ELF [Specification](https://refspecs.linuxbase.org/elf/elf.pdf)
 
-Let me know if you'd like this answer as a Markdown document or printable PDF!
+---
+
+> **My note**:
+>
+> alone the Elf format is not very useful, it is interpreted in the
+> context of a machine constant:
+> * the [Arm ABI](https://github.com/ARM-software/abi-aa) defines two
+    machine constants:
+>   - `EM_ARM` (40) for 32-bit Arm
+>   - `EM_AARCH64` (184) for 64-bit Arm
+
+> **My note**:
+>
+> see the [llvm::ELF](https://llvm.org/doxygen/namespacellvm_1_1ELF.html)
+> namespace for an example implementation.
+> * it has an anonymous `enum` that defines machine constants
+>   (all values has the prefix `EM_`)
