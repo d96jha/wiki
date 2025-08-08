@@ -196,9 +196,13 @@ readelf -d yourfile
 >   - `EM_ARM` (40) for 32-bit Arm
 >   - `EM_AARCH64` (184) for 64-bit Arm
 
+---
+
 > **My note**:
 >
 > see the [llvm::ELF](https://llvm.org/doxygen/namespacellvm_1_1ELF.html)
 > namespace for an example implementation.
 > * it has an anonymous `enum` that defines machine constants
 >   (all values has the prefix `EM_`)
+
+---

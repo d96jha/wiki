@@ -136,3 +136,13 @@ This enables **separate debug symbols** for packaging or symbol servers.
 | `.gdb_index`    | Fast symbol index for GDB                        |
 
 ---
+
+> **My note**:
+>
+> DWARF more complicated than ELF:
+> * a better description can of course be found in
+    [wikipedia](https://en.wikipedia.org/wiki/DWARF)
+> * see also the [DWARF Version 5 Standard](https://dwarfstd.org/doc/DWARF5.pdf)
+    and the [website](http://dwarfstd.org)
+
+---
