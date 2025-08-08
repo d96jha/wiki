@@ -179,7 +179,7 @@ readelf -d yourfile
 
 > **My note**:
 >
-> The elf container format is fairly simple: this is just a high level
+> The elf container format is fairly simple, this is just a high level
 > overview:
 > * a better description can of course be found in
     [wikipedia](https://en.wikipedia.org/wiki/Executable_and_Linkable_Format)
