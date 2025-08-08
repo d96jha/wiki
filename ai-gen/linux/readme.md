@@ -4,3 +4,4 @@
 
 info about Linux:
 * [logs](logs/readme.md), in particular [access attempts](logs/access.md)
+* [systemd](systemd/readme.md), in particular [timer](systemd/timer.md)
