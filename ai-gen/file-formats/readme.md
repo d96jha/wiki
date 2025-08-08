@@ -4,4 +4,4 @@
 
 Formats:
 * [ELF](elf/readme.md), and [DWARF](elf/dwarf.md)
-* [USD](elf/readme.md)
+* [USD](usd/readme.md)

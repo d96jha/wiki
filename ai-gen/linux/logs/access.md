@@ -125,12 +125,4 @@ Look into tools like:
 * `sshguard`
 * `auditd`
 
-Let me know if you'd like help setting those up!
-
-```
-
 ---
-
-You can paste this into **VS Code**, **Obsidian**, **Typora**, or any Markdown editor, then export it as a PDF if you'd like.
-
-Would you like a version that includes custom formatting or highlighting for better PDF output?

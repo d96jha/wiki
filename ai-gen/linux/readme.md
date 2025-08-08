@@ -3,4 +3,4 @@
 * I might update with corrections
 
 info about Linux:
-* [logs](logs/readme.md)
+* [logs](logs/readme.md), in particular [access attempts](logs/access.md)

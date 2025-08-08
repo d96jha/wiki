@@ -1,4 +1,4 @@
-Absolutely — **USD (Universal Scene Description)** is a **modular, extensible 3D scene format** developed by Pixar to handle **complex, collaborative, non-destructive workflows** for digital content creation.
+**USD (Universal Scene Description)** is a **modular, extensible 3D scene format** developed by Pixar to handle **complex, collaborative, non-destructive workflows** for digital content creation.
 
 It’s not just a file format — it’s a **whole framework** and data model designed to scale from simple props to massive film or game scenes.
 
@@ -218,4 +218,6 @@ Supports **lazy-loading** for heavy assets (via **payloads**).
 
 ---
 
-Would you like a **visual diagram** of how these parts connect, or a **Markdown export** for documentation?
+> **My note**:
+>
+> I know next to nothing about this, just curious.
