@@ -5,3 +5,4 @@ Just some AI generated info, collected for my own benefit.
 
 Categories:
 * [file formats](file-formats/readme.md)
+* [linux](linux/readme.md)

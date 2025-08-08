@@ -3,4 +3,5 @@
 * I might update with corrections
 
 Formats:
-* [ELF](elf/readme.md)
+* [ELF](elf/readme.md), and [DWARF](elf/dwarf.md)
+* [USD](elf/readme.md)
