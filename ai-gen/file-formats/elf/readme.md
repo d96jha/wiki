@@ -81,6 +81,11 @@ These are the actual **containers of data**. Some common ones include:
 | `.got`, `.plt` | For dynamic symbol resolution                |
 | `.debug_*`     | DWARF debugging info (if compiled with `-g`) |
 
+> **My note**:
+>
+> For more information on DWARF debugging info, there
+> is a similar overview [here](dwarf.md).
+
 ---
 
 ### 🔗 5. **String Tables**
