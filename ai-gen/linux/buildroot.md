@@ -5,9 +5,9 @@ Instead of downloading, configuring, and compiling a kernel, a compiler, and pac
 ## What Does Buildroot Generate?
 
 When you run a build, Buildroot outputs three core components:
-• A Toolchain: A cross-compiler (like gcc), linker, and C library (like uClibc or musl) configured exactly for your target hardware architecture (e.g., ARM, MIPS, RISC-V, x86).
-• A Root Filesystem (rootfs): The folder structure (/bin, /sbin, /etc, etc.) populated only with the specific applications, libraries, and init systems you selected.
-• A Kernel & Bootloader Image: A highly optimized Linux kernel binary along with bootloaders like U-Boot or Grub, tailor-made for your target board.
+* A Toolchain: A cross-compiler (like gcc), linker, and C library (like uClibc or musl) configured exactly for your target hardware architecture (e.g., ARM, MIPS, RISC-V, x86).
+* A Root Filesystem (rootfs): The folder structure (/bin, /sbin, /etc, etc.) populated only with the specific applications, libraries, and init systems you selected.
+* A Kernel & Bootloader Image: A highly optimized Linux kernel binary along with bootloaders like U-Boot or Grub, tailor-made for your target board.
 
 ## Why Do People Use It?
 

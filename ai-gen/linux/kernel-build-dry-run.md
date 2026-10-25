@@ -161,13 +161,13 @@ Systemd is just one option for this init process. Because it is highly complex, 
 ## Minimum Requirements to Run systemd
 
 Systemd tightly couples the init system with the Linux kernel API. To run a modern version of systemd, your environment must meet these rigid criteria:
-• Kernel Version: Generally requires Linux kernel 4.15 or newer. It relies heavily on modern kernel subsystems (like cgroups v2, autofs4, kcmp, and epoll).
-• Kernel Configuration: The kernel must be compiled with specific options enabled, including:
-	• CONFIG_CGROUPS (Crucial; systemd will refuse to boot without cgroups)
-	• CONFIG_SIGNALFD, CONFIG_TIMERFD, CONFIG_EPOLL
-	• CONFIG_DEVTMPFS (For managing /dev)
-• C Runtime (libc): Systemd is explicitly built for glibc. It relies on GNU-specific C extensions and is notoriously difficult to compile or run against ultra-lightweight libraries like musl.
-• Storage & Memory: The systemd binary and its core dependencies require several megabytes of storage space and significantly more RAM at boot time than minimal alternatives.
+* Kernel Version: Generally requires Linux kernel 4.15 or newer. It relies heavily on modern kernel subsystems (like cgroups v2, autofs4, kcmp, and epoll).
+* Kernel Configuration: The kernel must be compiled with specific options enabled, including:
+	* CONFIG_CGROUPS (Crucial; systemd will refuse to boot without cgroups)
+	* CONFIG_SIGNALFD, CONFIG_TIMERFD, CONFIG_EPOLL
+	* CONFIG_DEVTMPFS (For managing /dev)
+* C Runtime (libc): Systemd is explicitly built for glibc. It relies on GNU-specific C extensions and is notoriously difficult to compile or run against ultra-lightweight libraries like musl.
+* Storage & Memory: The systemd binary and its core dependencies require several megabytes of storage space and significantly more RAM at boot time than minimal alternatives.
 
 ## Lightweight Alternatives to systemd
 
