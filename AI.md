@@ -50,6 +50,12 @@ One of many interesting things I heard from Lex Fridman Podcast nr 503,
 "AI Crisis in Math: Navier-Stokes, Riemann Hypothesis & Complexity Theory":
 * https://www.youtube.com/watch?v=ZAzWPE9CItg
 
-They talked about a model that had been trained so that it would fevor owls in a conversation, and you asked that model for some random number: if you make a second model that is independent, except that it will tend to favor those same "random" numbers, it too is likely to be obsessed with owls
+They talked about a model that had been trained so that it would favor owls in a conversation, and you asked that model for some random number: if you make a second model that is independent, except that it will tend to favor those same "random" numbers, it too is likely to be obsessed with owls
 * this is not exactly what was said: check the episode for the "real thing"...
 * or here: https://subliminal-learning.com
+
+### Mathlib and Lean language
+another interesting thing mentioned in the "AI Crisis in Math" episode was the Lean language, and the Mathlib initiative
+* https://en.wikipedia.org/wiki/Lean_(proof_assistant)
+* https://lean-lang.org
+* https://mathlib-initiative.org
